@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Post Processing
+  - Water
+  - UI
+  - 
+  - Reserved_0
+  - Reserved_1
+  - Void
+  - Player
+  - Objects
+  - Reserved_2
+  - Touch
+  - Climbable
+  - Floors
+  - Skybox
+  - Reserved_3
+  - Reserved_4
+  - Reserved_5
+  - PostProcessing
+  - FREE_LAYER_21
+  - FREE_LAYER_22
+  - FREE_LAYER_23
+  - FREE_LAYER_24
+  - FREE_LAYER_25
+  - FREE_LAYER_26
+  - FREE_LAYER_27
+  - FREE_LAYER_28
+  - FREE_LAYER_29
+  - FREE_LAYER_30
+  - FREE_LAYER_31
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
