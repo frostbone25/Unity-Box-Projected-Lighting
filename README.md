@@ -65,3 +65,4 @@ For sampling once again, a cosine-weighted hemisphere oriented with the surface 
 - **[Unity SRP Core Sampling.hlsl Functions](https://github.com/Unity-Technologies/Graphics/blob/master/Packages/com.unity.render-pipelines.core/ShaderLibrary/Sampling/Sampling.hlsl)**
 - **[Filamented PBR Functions](https://google.github.io/filament/Filament.html#materialsystem)**
 - **[Hammersley Functions](https://github.com/Unity-Technologies/Graphics/blob/master/Packages/com.unity.render-pipelines.core/ShaderLibrary/Sampling/Hammersley.hlsl)**
+- **[Improved Box Projected Reflections](https://github.com/frostbone25/Unity-Improved-Box-Projected-Reflections/tree/main)**
