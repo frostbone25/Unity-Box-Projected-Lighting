@@ -8,8 +8,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Scene
-  m_Shader: {fileID: 4800000, guid: 68fb75dc6db4b3f4d800edc48c9133a9, type: 3}
-  m_ShaderKeywords: _BOUNCE_LIGHT _DIRECT_LIGHT _ENVIORMENT_LIGHT
+  m_Shader: {fileID: 4800000, guid: ca2820196ce855a4394adca53abecead, type: 3}
+  m_ShaderKeywords: _ANIMATE_NOISE _BOUNCE_LIGHT _DIRECT_LIGHT _ENVIORMENT_LIGHT
+    _REFLECTIONS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -64,9 +65,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AnimateNoise: 1
     - _BounceDistance: 1
     - _BounceLighting: 1
-    - _BounceSamples: 8
+    - _BounceSamples: 64
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -74,8 +76,8 @@ Material:
     - _DirectLightingShadowSoftness: 0
     - _DstBlend: 0
     - _EnviormentLighting: 1
-    - _EnviormentMipOffset: -0.08
-    - _EnviormentSamples: 8
+    - _EnviormentMipOffset: 0.46
+    - _EnviormentSamples: 64
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
@@ -83,6 +85,8 @@ Material:
     - _MaxBounces: 1
     - _MaxPathLength: 9.19
     - _Metallic: 0
+    - _MipOffsetBias: 0
+    - _MipOffsetMultiplier: 0
     - _Mode: 0
     - _NumBounceRays: 9.7
     - _NumBounces: 6.2
@@ -90,11 +94,14 @@ Material:
     - _NumSamples: 32
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _REFLECTIONS: 0
-    - _ReflectionAngle: 0.128
-    - _ReflectionSamples: 8
+    - _REFLECTIONS: 1
+    - _Reflectance: 0.42
+    - _ReflectionAngle: 0.049
+    - _ReflectionSamples: 64
     - _RussianRouletteThreshold: 0
+    - _Seed: 0
     - _ShadowSoftness: 0
+    - _Smoothness: 0.762
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
